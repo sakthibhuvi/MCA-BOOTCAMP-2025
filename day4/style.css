@@ -1,0 +1,25 @@
+.full{
+    width:300px;
+    height: 500px;
+background-color: rgb(227, 233, 233);
+border: solid 10px;
+border-color:skyblue;
+padding: 15px;
+margin-top: 8%;
+margin-left: 40%;
+border-left: none;
+border-right: none;
+
+
+
+}
+.two{
+    display: inline;
+}
+h3{
+    text-align: center;
+}
+button{
+    margin-left: 80%;
+    
+}
