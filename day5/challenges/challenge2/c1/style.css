@@ -1,0 +1,42 @@
+.full{
+    border: solid 2px black;
+    width: 700px;
+    height: 280px;
+    margin-left: 100px;
+    
+
+    z-index: 1;
+    
+    
+}
+
+.one{
+    background-color: red;
+    color: white;
+    width: 45px;
+left:80px ;
+    position: absolute;
+    top: -17px;
+    z-index: 2;
+    
+    
+
+}
+.we{
+    padding: 10px;
+    margin: 0;
+}
+.con{
+    display: flex;
+    
+    
+
+}
+button{
+
+    background-color: black;
+    color: white;
+    padding:7px;
+    width: 700px;
+    
+}
