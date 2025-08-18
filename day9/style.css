@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 20px;
+}
+#dice-container{
+    text-align: center;
+}
+
+ button{
+    margin-left: 46%;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 60%;
+}
+#result{
+    text-align: center;
+    
+
+}
