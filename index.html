@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <!-- Link CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Rajan S</h1>
+    <p>Web Developer | MCA Student</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>Hi! I am Rajan, a passionate web developer currently pursuing MCA. I love building clean and simple websites using HTML, CSS, and JavaScript.</p>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>Portfolio Website</h3>
+      <p>A simple personal portfolio built with HTML, CSS, and JavaScript.</p>
+    </div>
+    <div class="project-card">
+      <h3>Todo App</h3>
+      <p>A task manager app with add/remove functionality using JavaScript.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: rajan2321x@gmail.com</p>
+    <button onclick="sayThanks()">Say Hi</button>
+  </section>
+
+  <footer>
+    <p>© 2025 Rajan S | All Rights Reserved</p>
+  </footer>
+
+  <script>
+    function sayThanks() {
+      alert("Thanks for visiting my portfolio!");
+    }
+  </script>
+</body>
+</html>
